@@ -1,4 +1,29 @@
 .lead {
     margin: auto;
     max-width: 77%;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 90%;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+        margin-bottom: 88px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .lead {
+        max-width: 100%;
+        margin-bottom: 64px;
+    }
+    
 }

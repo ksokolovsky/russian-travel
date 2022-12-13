@@ -4,4 +4,12 @@
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .footer__menu {
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
 }

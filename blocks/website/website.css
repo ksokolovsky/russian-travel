@@ -1,0 +1,11 @@
+.website {
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .website {
+        max-width: 100%;
+        margin-left: 5%;
+    }
+    
+}

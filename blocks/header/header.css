@@ -5,7 +5,13 @@
     width: 90%;
     margin: auto;
     margin-top: 28px;
-    margin-bottom: 48px;
+    margin-bottom: 56px;
     max-height: 52px;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+    margin-bottom: 48px;
+    }       
 }

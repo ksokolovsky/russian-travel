@@ -4,3 +4,9 @@
    text-decoration-line: underline;
    color: #FFF;
 }
+
+.website__link:hover {
+   opacity: 0.8;
+   transition: 1.2s;
+   
+}
