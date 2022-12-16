@@ -1,6 +1,15 @@
 .cover__title-link {
     color: white;
     text-decoration-line: none;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 740px;
+    
+    
 }
 
 .cover__title-link:hover {
