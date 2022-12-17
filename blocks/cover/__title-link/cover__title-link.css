@@ -8,12 +8,25 @@
     align-items: center;
     justify-content: center;
     min-height: 740px;
-    
+    position: relative;
+    z-index: 1;
     
 }
 
-.cover__title-link:hover {
-    opacity: 0.8;
-    transition: 1.2s;
-    
+
+.cover__title-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 44, 47, 0.3);
+    z-index: -1;
+
+}
+
+.cover__title-link:hover::before {
+    background-color: rgba(42, 44, 47, 0.5);
+    transition-duration: 0.5s;
 }
