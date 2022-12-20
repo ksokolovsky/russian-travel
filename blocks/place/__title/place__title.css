@@ -23,10 +23,11 @@
 
 @media screen and (max-width: 400px) {
     .place__title {
-        max-width: 90%;
+        max-width: 92.5%;
         font-size: 32px;
         line-height: 109%;
         margin-left: 5%;
+        
     }
     
 }

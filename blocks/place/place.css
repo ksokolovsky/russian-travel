@@ -1,5 +1,4 @@
 .place {
-    max-width: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 48px 40px;
@@ -15,7 +14,6 @@
     .place {
         gap: 48px 32px;
     }
-    
 }
 
 @media screen and (max-width: 768px) {
