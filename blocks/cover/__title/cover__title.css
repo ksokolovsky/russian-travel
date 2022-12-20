@@ -10,6 +10,25 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .cover__title {
+        max-width: 95%;
+    }       
+}
+
+@media screen and (max-width: 710px) {
+    .cover__title {
+        font-size: 58px;
+    }       
+}
+
+
+@media screen and (max-width: 500px) {
+    .cover__title {
+        font-size: 44px;
+    }       
+}
+
 @media screen and (max-width: 400px) {
     .cover__title {
         font-size: 32px;

@@ -9,6 +9,25 @@
     margin-bottom: 64px;
 }
 
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        max-width: 95%;
+    }       
+}
+
+@media screen and (max-width: 710px) {
+    .lead__subtitle {
+        font-size: 23px;
+    }       
+}
+
+
+@media screen and (max-width: 500px) {
+    .lead__subtitle {
+        font-size: 18px;
+    }       
+}
+
 @media screen and (max-width: 400px) {
     .lead__subtitle {
     margin-bottom: 40px;

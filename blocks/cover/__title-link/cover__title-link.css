@@ -9,6 +9,7 @@
     justify-content: center;
     min-height: 740px;
     position: relative;
+    
     z-index: 1;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .cover__title-link:hover::before {
-    background-color: rgba(42, 44, 47, 0.5);
+    background-color: rgba(42, 44, 47, 0.8);
     transition-duration: 0.5s;
 }
 

@@ -6,14 +6,40 @@
     text-align: center;
     margin: auto;
     margin-bottom: 32px;
-    word-wrap: break-word;
+    
     
 }
 
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: 95%;
+        
+
+    }       
+}
+
+@media screen and (max-width: 710px) {
+    .lead__title {
+        
+        font-size: 63px;
+
+    }       
+}
+
+
+@media screen and (max-width: 500px) {
+    .lead__title {
+        
+        font-size: 51px;
+
+    }       
+}
+
+
 @media screen and (max-width: 400px) {
     .lead__title {
-    margin-bottom: 16px;
-    font-size: 40px;
-    line-height: 110%;
+        margin-bottom: 16px;
+        font-size: 40px;
+        line-height: 110%;
     }       
 }
