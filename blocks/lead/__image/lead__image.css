@@ -1,5 +1,11 @@
 .lead__image {
+    padding: 0;
     object-fit: cover;
     object-position: top;
     width: 100%;
+    
+}
+
+figure {
+    margin: 0;
 }
