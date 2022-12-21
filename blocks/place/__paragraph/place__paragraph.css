@@ -4,13 +4,16 @@
     line-height: 163%;
     margin: 0;
     padding: 0;
+    margin: auto;
     margin-bottom: 26px;
     max-width: 100%;
+    
     
 }
 
 .place__paragraph:last-of-type {
     margin: 0;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,14 +24,12 @@
 
 @media screen and (max-width: 400px) {
     .place__paragraph {
-        margin-left: 5%;
-        margin-right: 5%;
+        max-width: 90%;
     }
 
     .place__paragraph:last-of-type {
         
-        margin-left: 5%;
-        margin-right: 5%;
+        max-width: 90%;
     }
 }
 
