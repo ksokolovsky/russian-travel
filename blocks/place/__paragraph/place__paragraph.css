@@ -26,11 +26,6 @@
     .place__paragraph {
         max-width: 90%;
     }
-
-    .place__paragraph:last-of-type {
-        
-        max-width: 90%;
-    }
 }
 
 
