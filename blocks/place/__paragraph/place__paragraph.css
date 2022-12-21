@@ -12,8 +12,8 @@
 }
 
 .place__paragraph:last-of-type {
-    margin: 0;
     margin: auto;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
