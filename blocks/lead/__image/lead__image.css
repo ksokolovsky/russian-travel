@@ -4,11 +4,13 @@
     object-fit: cover;
     object-position: top;
     width: 100%;
+    margin-bottom: 8px;
     
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
         min-width: 320px;
+        
     }
 }
